@@ -1,0 +1,170 @@
+#first-section
+{
+    background-color:#ff4c68;
+    padding: 3% 15% 0% 15%;
+    color: #fff;   
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.intro
+{
+    padding: 10% 0%;
+}
+body{
+    font-family: Montserrat-Light;
+}
+.navbar-brand
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    margin-left: 0px;
+    font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+    
+}
+
+.navbar
+{
+    padding-left: 0%;
+}
+.butt
+{
+    margin: 5% 3% 5% 0%;
+}
+.dogimg
+{
+    position: absolute;
+    width: 60%;
+    transform: rotate(25deg);
+    right: 25%;
+}
+@media (max-width:900px)
+{
+    .dogimg
+    {
+        position: static;
+        transform: rotate(0deg);
+    }
+    #first-section
+    {
+        text-align: center;
+    }
+}
+.features{
+    padding: 0% 5%;
+    z-index: 10;
+    position: relative;
+    background-color: #fff;
+}
+.feature-col
+{
+    text-align: center;
+    padding: 5%;
+}
+ p{
+    color: #8f8f8f;
+    width: 60%;
+    margin: auto;
+    font-size: 1.1rem;
+}
+.feature-col h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+    margin: 5% ;
+}
+.feature-fa{
+    color: #ef8172;
+ }
+ 
+ .feature-fa:hover{
+   color:#ff4c68;
+ }
+ 
+ .tesmonials
+ {
+     background-color: #ef8172;
+     
+     text-align: center;
+     color: #fff;
+     
+     
+ }
+ h2{
+     font-family: 'Montserrat';
+     font-size: 2.5rem;
+     
+ }
+ .tesmonials-img
+ {
+     width: 10%;
+     border-radius: 100%;
+     margin: 20px;
+     
+ }
+ .tesmonials-text
+ {
+
+    font-size: 1.5rem;
+ }
+ .press
+ {
+     background-color: #ef8172;
+     text-align: center;
+     padding: 3% 0%;
+ }
+ .press-log
+ {
+     width: 15%;
+     margin: 20px 20px 50px;
+ }
+ .carousel-item
+ {
+    padding:3% 20% ;
+ }
+ .row1{
+     padding: 3% 5%;
+ }
+ .price-card
+ {
+    margin: 3% 0%; 
+ }
+ .card
+ {
+     text-align: center;
+ }
+ #price
+ {
+     padding: 5% ;
+     text-align: center;
+     margin-bottom: 0;
+ }
+ #download
+ {
+     text-align: center;
+     background-color: #ff4c68;
+     padding: 7% 15%;
+     color: #fff;
+ }
+ #footer
+ {
+     text-align: center;
+     background-color: #fff;
+     padding: 7% 15%;
+ }
+ .icon
+ {
+     margin: 1%;
+ }
